@@ -1,7 +1,7 @@
-DSMON_FILE = open("DSMON2.txt","r")
+DSMON_FILE = open("DSMON.txt","r")
 DSMON_list = DSMON_FILE.readlines()
 
-num_lines = sum(1 for line in open("DSMON2.txt"))
+num_lines = sum(1 for line in open("DSMON.txt"))
 
 i = 0
 line = 0
